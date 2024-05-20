@@ -28,11 +28,10 @@
             <td>
                 <a href="edita.html" class="btn btn-warning btn-sm me-2">Editar</a>
 
-                <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal"
-                    data-bs-target="#eliminaModal" data-bs-id="1">Eliminar</button>
+                <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#eliminaModal" data-bs-id="1">Eliminar</button>
             </td>
         </tr>
 
     </tbody>
 
-<?= $this->endSection(); ?>
+    <?= $this->endSection(); ?>
